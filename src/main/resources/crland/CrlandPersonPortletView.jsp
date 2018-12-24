@@ -68,71 +68,43 @@ margin-left:0px;
 					//alert(topDeptId);
 					if("10089"==topDeptId){
 					$("#oapxqx").val("");
-					if("10090"==twoDeptid||"9551"==twoDeptid){//华南大区
-					//华南大区总部10090，华南大区深圳9551
-
 					$("#oaycsb").val("http://oasz.crland.cn/szcr/xzbg/tms_ycsb.nsf/frmCreateDoc?openform");
 					$("#oaxjsq2").val("http://oasz.crland.cn/szcr/xzbg/tms_xjsq.nsf/frmCreateDoc?openform");
 					
 					$("#oawcsq").val("http://oasz.crland.cn/szcr/xzbg/tms_wcsq.nsf/frmCreateDoc?openform");
+					//缺，有问题
 					$("#oajbsq").val("http://oasz.crland.cn/szcr/xzbg/tms_jbsq.nsf/frmCreateDoc?openform");
 					$("#oaxjsq").val("http://oasz.crland.cn/szcr/xzbg/tms_qjsq.nsf/frmCreateDoc?openform");
 					$("#oaccsq").val("http://oasz.crland.cn/szcr/xzbg/ccgl_sz.nsf/frmcreatedoc?openform");
 					$("#fybx1").attr("href","http://oasz.crland.cn/szcr/fin/fybx_sz.nsf/frmcreatedoc?openform");
 					$("#fybx2").attr("href","http://oasz.crland.cn/szcr/fin/clbx_sz.nsf/frmcreatedoc?openform");
 					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}else if("10935"==twoDeptid){
-					$("#oawcsq").val("http://oasz.crland.cn/szcr/xzbg/wcgl_gz.nsf/frmcreatedoc?openform");
-					$("#oajbsq").val("");
-					$("#oaxjsq").val("http://oasz.crland.cn/szcr/kaoqin/gz/qxjgl_gz.nsf/frmcreatedoc?openform");
-					$("#oaccsq").val("http://oasz.crland.cn/szcr/xzbg/ccgl_gz.nsf/frmcreatedoc?openform");
-					$("#fybx1").attr("href","http://oasz.crland.cn/szcr/fin/fybx_gz.nsf/frmcreatedoc?openform");
-					$("#fybx2").attr("href","http://oasz.crland.cn/szcr/fin/fybxcl_gz.nsf/frmcreatedoc?openform");
-					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}else if("9524"==twoDeptid){
-					$("#oawcsq").val("http://oasz.crland.cn/szcr/hr/wcgl_hn.nsf/frmcreatedoc?openform");
-					$("#oajbsq").val("http://oasz.crland.cn/szcr/hr/jbsq_hn.nsf/frmcreatedoc?openform");
-					$("#oaxjsq").val("http://oasz.crland.cn/szcr/hr/qxjgl_hn.nsf/frmcreatedoc?openform");
-					$("#oaccsq").val("http://oasz.crland.cn/szcr/hr/ccgl_hn.nsf/frmcreatedoc?openform");
-					$("#fybx1").attr("href","http://oasz.crland.cn/szcr/fin/fybx_hn.nsf/frmcreatedoc?openform");
-					$("#fybx2").attr("href","http://oasz.crland.cn/szcr/fin/clbx_hn.nsf/frmcreatedoc?openform");
-					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}else if("9274"==twoDeptid){
-					$("#oawcsq").val("http://oasz.crland.cn/szcr/xzbg/wcgl_nn.nsf/frmcreatedoc?openform");
-					$("#oajbsq").val("");
-					$("#oaxjsq").val("http://oasz.crland.cn/szcr/kaoqin/nn/qxjgl_nn.nsf/frmcreatedoc?openform");
-					$("#oaccsq").val("http://oasz.crland.cn/szcr/fin/fybx_nn.nsf/frmcreatedoc?openform");
-					$("#fybx1").attr("href","http://oasz.crland.cn/szcr/fin/fybxcl_sz.nsf/frmcreatedoc?openform");
-					$("#fybx2").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}else if("1364579"==twoDeptid){
-					$("#oawcsq").val("http://oasz.crland.cn/szcr/xzbg/wcgl_zh.nsf/frmcreatedoc?openform");
-					$("#oajbsq").val("");
-					$("#oaxjsq").val("http://oasz.crland.cn/szcr/kaoqin/zh/qxjgl_zh.nsf/frmcreatedoc?openform");
-					$("#oaccsq").val("http://oasz.crland.cn/szcr/xzbg/ccgl_zh.nsf/frmcreatedoc?openform");
-					$("#fybx1").attr("href","http://oasz.crland.cn/szcr/fin/fybx_zh.nsf/frmcreatedoc?openform");
-					$("#fybx2").attr("href","http://oasz.crland.cn/szcr/fin/fybxcl_zh.nsf/frmcreatedoc?openform");
-					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}else if("1334093"==twoDeptid){
-					$("#oawcsq").val("http://oasz.crland.cn/szcr/xzbg/wcgl_st.nsf/frmcreatedoc?openform");
-					$("#oajbsq").val("");
-					$("#oaxjsq").val("http://oasz.crland.cn/szcr/kaoqin/st/qxjgl_st.nsf/frmcreatedoc?openform");
-					$("#oaccsq").val("http://oasz.crland.cn/szcr/xzbg/ccgl_st.nsf/frmcreatedoc?openform");
-					$("#fybx1").attr("href","http://oasz.crland.cn/szcr/fin/fybx_st.nsf/frmcreatedoc?openform");
-					$("#fybx2").attr("href","http://oasz.crland.cn/szcr/fin/fybxcl_st.nsf/frmcreatedoc?openform");
-					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}else {
-					$("#oawcsq").val("");
-					$("#oajbsq").val("");
-					$("#oaxjsq").val("");
-					$("#oaccsq").val("");
-					$("#oaycsb").val("");
-					$("#oaxjsq2").val("");
-					$("#fybx1").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					$("#fybx2").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
-					}
-				
+					}else if("1566544"==topDeptId){//商业华南大区
+						if("1566605"==twoDeptid){//商业华南此链接检查一下
+							$("#oaycsb").val("http://oasz.crland.cn/syhncr/xzbg/tms_ycsb.nsf/frmCreateDoc?openform");
+							$("#oaxjsq2").val("http://oasz.crland.cn/syhncr/xzbg/tms_xjsq.nsf/frmCreateDoc?openform");
+							
+							$("#oapxqx").val("");
+							$("#oawcsq").val("http://oasz.crland.cn/syhncr/xzbg/tms_wcsq.nsf/frmCreateDoc?openform");
+							$("#oajbsq").val("http://oasz.crland.cn/syhncr/xzbg/tms_jbsq.nsf/frmCreateDoc?openform");
+							$("#oaxjsq").val("http://oasz.crland.cn/syhncr/xzbg/tms_qjsq.nsf/frmCreateDoc?openform");
+							$("#oaccsq").val("http://oasz.crland.cn/syhncr/zhbg/ccgl.nsf/frmCreateDoc?openform");
+							$("#fybx1").attr("href","http://oasz.crland.cn/syhncr/cwgl/fybx.nsf/frmCreateDoc?openform");
+							$("#fybx2").attr("href","http://oasz.crland.cn/syhncr/cwgl/clbx.nsf/frmCreateDoc?openform");
+							$("#fybx3").attr("href","");
+						}else{
+							$("#oaycsb").val("");
+							$("#oaxjsq2").val("");
+							
+							$("#oapxqx").val("");
+							$("#oawcsq").val("");
+							$("#oajbsq").val("");
+							$("#oaxjsq").val("");
+							$("#oaccsq").val("");
+							$("#fybx1").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
+							$("#fybx2").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
+							$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
+						}
 					}else if("9302"==topDeptId){//置地总部
 					$("#oaycsb").val("http://oahq.crland.cn/croa/xzbg/tms_ycsb.nsf/frmCreateDoc?openform");
 					$("#oaxjsq2").val("http://oahq.crland.cn/croa/xzbg/tms_xjsq.nsf/frmCreateDoc?openform");
@@ -211,11 +183,21 @@ margin-left:0px;
 							$("#fybx1").attr("href","http://oaln.crland.cn/lncr/cw/ydfybx.nsf/frmcreatedoc?openform");
 							$("#fybx2").attr("href","http://oaln.crland.cn/lncr/cw/clfybx.nsf/frmcreatedoc?openform");
 							$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')"); */
+							//培训缺席请假申请，缺
 							$("#oapxqx").val("");
-							$("#oawcsq").val("");
-							$("#oajbsq").val("");
-							$("#oaxjsq").val("");
+							//外出申请
+							$("#oawcsq").val("http://oaln.crland.cn/lncr/xzbg/tms_wcsq.nsf/frmCreateDoc?openform");
+							//加班申请
+							$("#oajbsq").val("http://oaln.crland.cn/lncr/xzbg/tms_jbsq.nsf/frmCreateDoc?openform");
+							//休假申请
+							$("#oaxjsq").val("http://oaln.crland.cn/lncr/xzbg/tms_qjsq.nsf/frmCreateDoc?openform");
+							//出差申请,缺
 							$("#oaccsq").val("");
+							//异常申补
+							$("#oaycsb").val("http://oaln.crland.cn/lncr/xzbg/tms_ycsb.nsf/frmCreateDoc?openform");
+							//销假申请
+							$("#oaxjsq2").val("http://oaln.crland.cn/lncr/xzbg/tms_xjsq.nsf/frmCreateDoc?openform");
+							
 							$("#fybx1").attr("href","http://oaln.crland.cn/lncr/cw/ydfybx.nsf/frmcreatedoc?openform");
 							$("#fybx2").attr("href","http://oaln.crland.cn/lncr/cw/clfybx.nsf/frmcreatedoc?openform");
 							$("#fybx3").attr("onclick","alert('您所在区域暂未配置此类流程，请联系单位HR确认！')");
@@ -899,7 +881,7 @@ margin-left:0px;
         <div style="margin-top:11px"><img width='60' height='60' style="cursor:pointer" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD_1/EMPLOYEE/HRMS/c/CRC_EP_MENU.CRC_EP_NAVIGATION.GBL?FolderPath=PORTAL_ROOT_OBJECT.CRC_FLD_SELF_SERVE.CRC_FLD_SELF_EP_MANAGEMENT.CRC_EP_NAVIGATION_GBL&IsFolder=false&languageCd=ZHS')" src="<%=basePath%>/images/9.png"></div><span style="font-weight: bold;font-size: 15px;"><a href="http://hrms-sso.crc.com.cn/psp/HRPRD_1/EMPLOYEE/HRMS/c/CRC_EP_MENU.CRC_EP_NAVIGATION.GBL?FolderPath=PORTAL_ROOT_OBJECT.CRC_FLD_SELF_SERVE.CRC_FLD_SELF_EP_MANAGEMENT.CRC_EP_NAVIGATION_GBL&IsFolder=false&languageCd=ZHS" target="_blank">绩效管理</a></span><br/><span style="color:rgb(164, 164, 164)">员工绩效平台</span>
     </div>
     <div style="width:176px;height:145px;float:left;border: 1px solid #cecbcb;text-align:center">
-	    <div style="margin-top:11px"><img width='60' height='60' style="cursor:pointer" onclick="openMask('fybx');" src="<%=basePath%>/images/10.png"></div><span style="font-weight: bold;font-size: 15px;"><a onclick="openMask('fybx');">费用报销</a></span><br/><span style="color:rgb(164, 164, 164)">费用报销</span>
+	    <div style="margin-top:11px"><img width='60' height='60' style="cursor:pointer" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD_1/EMPLOYEE/HRMS/c/CRC_EP_MENU.CRC_EP_NAVIGATION.GBL?FolderPath=PORTAL_ROOT_OBJECT.CRC_FLD_SELF_SERVE.CRC_FLD_SELF_EP_MANAGEMENT.CRC_EP_NAVIGATION_GBL&IsFolder=false&languageCd=ZHS')" src="<%=basePath%>/images/10.png"></div><span style="font-weight: bold;font-size: 15px;"><a href="www.baidu.com" target="_blank">证明申请</a></span><br/><span style="color:rgb(164, 164, 164)">证明申请</span>
 	</div>
 	</div>
 </div>
@@ -1067,7 +1049,7 @@ margin-left:0px;
 				</div>
     </div>
     <div class="imgdiv" style="width: 311px; height: 400px; float: right; margin-right: 37px;margin-top: 30px;">
-          <div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 43px;">
+          <div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 18px;">
 					<div class="pic4" style="margin-top: -14px; height: 61px;">
 							<img id="grllps" src="" style="cursor: pointer;" onerror="javascript:this.src='<%=basePath%>css/crcportal_personnel.jpg';" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_ESS_MENU.CRC_PSN_DTL_INFO_N.GBL?languageCd=ZHS')" height="55" width="55">
 						</div>
@@ -1077,7 +1059,7 @@ margin-left:0px;
 					  <br>
 					  
 					</div>
-				</div><div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 43px;">
+				</div><div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 24px;">
 					<div class="pic4" style="margin-top: -27px; height: 61px;">
 							<img src="<%=basePath%>images/lvli.png" style="cursor: pointer;" onclick="window.open('http://hrms-sso.crc.com.cn/web/#/employee/myEmployee?menuCode=console_myEmployee')" height="55" width="55">
 						</div>
@@ -1089,13 +1071,25 @@ margin-left:0px;
 					  
 					</div>
 				</div>
-				<div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 43px;">
+				<div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 25px;">
 					<div class="pic4" style="margin-top: -27px; height: 61px;">
 							<img src="<%=basePath%>images/xiugai.png" style="cursor: pointer;" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS')" height="55" width="55">
 						</div>
 					<div class="job">
 					  <span style="font-size: 15px; font-weight: bold; margin-top: 6px;">
 					  <a href="http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS" target="_blank">离职申请</a></span><br>
+					 
+					  <br>
+					  
+					</div>
+				</div>
+				<div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 8px;">
+					<div class="pic4" style="margin-top: -27px; height: 61px;">
+							<img src="<%=basePath%>images/xyqmbzd.png" style="cursor: pointer;" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS')" height="55" width="55">
+						</div>
+					<div class="job" style="height:20px;">
+					  <span style="font-size: 15px; font-weight: bold; margin-top: 6px;">
+					  <a href="http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS" target="_blank">试用期目标制定</a></span><br>
 					 
 					  <br>
 					  
@@ -1264,10 +1258,10 @@ margin-left:0px;
    <div class="allSystem-content" style="width:1060px;background-color: white;">
 
     <div class="imgdiv4" style="float: left;margin-top: 23px;z-index:9;width:1025px;height:475px;margin-left:17px;background-image:url(<%=basePath%>/images/bigbg.jpg);">
-         <div style="z-index:10;margin-top:284px;margin-left:314px">
-          <div  style="width:400px;height:42px;background:url(<%=basePath%>/images/ilearn.png) no-repeat center center" onmouseover="this.style.cursor='pointer'" onclick="window.open('http://iln.crc.com.cn/ilearn/en/cst/userGuide/user_guide.html','_blank'); "></div>
-          <div style="width:400px;height:42px;background:url(<%=basePath%>/images/hrms.png) no-repeat center center" onmouseover="this.style.cursor='pointer'"    onclick="window.open('http://iln.crc.com.cn/ilearn/en/learner/jsp/search_selfpaced.jsp?srchfor=1&btn=srch&keywords=%E8%B7%9F%E6%88%91%E5%AD%A6','_blank'); "></div>
-          <div style="width:400px;height:42px;background:url(<%=basePath%>/images/xueba.png) no-repeat center center" onmouseover="this.style.cursor='pointer'"   onclick="window.open('http://iln.crc.com.cn/ilearn','_blank'); "></div>
+         <div style="z-index:10;margin-top:284px;margin-left:314px">        
+          <div  style="width:400px;height:42px;"></div>
+          <div style="width:400px;height:42px;background:url(<%=basePath%>/images/hrms.png) no-repeat center center" onmouseover="this.style.cursor='pointer'"    onclick="window.open('http://km2.crc.com.cn','_blank'); "></div>
+          <div style="width:400px;height:42px;"></div>
          </div>
     </div>
 	
