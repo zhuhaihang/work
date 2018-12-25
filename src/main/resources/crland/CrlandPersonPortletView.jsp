@@ -881,7 +881,7 @@ margin-left:0px;
         <div style="margin-top:11px"><img width='60' height='60' style="cursor:pointer" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD_1/EMPLOYEE/HRMS/c/CRC_EP_MENU.CRC_EP_NAVIGATION.GBL?FolderPath=PORTAL_ROOT_OBJECT.CRC_FLD_SELF_SERVE.CRC_FLD_SELF_EP_MANAGEMENT.CRC_EP_NAVIGATION_GBL&IsFolder=false&languageCd=ZHS')" src="<%=basePath%>/images/9.png"></div><span style="font-weight: bold;font-size: 15px;"><a href="http://hrms-sso.crc.com.cn/psp/HRPRD_1/EMPLOYEE/HRMS/c/CRC_EP_MENU.CRC_EP_NAVIGATION.GBL?FolderPath=PORTAL_ROOT_OBJECT.CRC_FLD_SELF_SERVE.CRC_FLD_SELF_EP_MANAGEMENT.CRC_EP_NAVIGATION_GBL&IsFolder=false&languageCd=ZHS" target="_blank">绩效管理</a></span><br/><span style="color:rgb(164, 164, 164)">员工绩效平台</span>
     </div>
     <div style="width:176px;height:145px;float:left;border: 1px solid #cecbcb;text-align:center">
-	    <div style="margin-top:11px"><img width='60' height='60' style="cursor:pointer" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD_1/EMPLOYEE/HRMS/c/CRC_EP_MENU.CRC_EP_NAVIGATION.GBL?FolderPath=PORTAL_ROOT_OBJECT.CRC_FLD_SELF_SERVE.CRC_FLD_SELF_EP_MANAGEMENT.CRC_EP_NAVIGATION_GBL&IsFolder=false&languageCd=ZHS')" src="<%=basePath%>/images/10.png"></div><span style="font-weight: bold;font-size: 15px;"><a href="www.baidu.com" target="_blank">证明申请</a></span><br/><span style="color:rgb(164, 164, 164)">证明申请</span>
+	    <div style="margin-top:11px"><img width='60' height='60' style="cursor:pointer" onclick="openMask('fybx');" src="<%=basePath%>/images/10.png"></div><span style="font-weight: bold;font-size: 15px;"><a onclick="openMask('fybx');">费用报销</a></span><br/><span style="color:rgb(164, 164, 164)">费用报销</span>
 	</div>
 	</div>
 </div>
@@ -1049,7 +1049,7 @@ margin-left:0px;
 				</div>
     </div>
     <div class="imgdiv" style="width: 311px; height: 400px; float: right; margin-right: 37px;margin-top: 30px;">
-          <div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 18px;">
+          <div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 43px;">
 					<div class="pic4" style="margin-top: -14px; height: 61px;">
 							<img id="grllps" src="" style="cursor: pointer;" onerror="javascript:this.src='<%=basePath%>css/crcportal_personnel.jpg';" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_ESS_MENU.CRC_PSN_DTL_INFO_N.GBL?languageCd=ZHS')" height="55" width="55">
 						</div>
@@ -1059,7 +1059,7 @@ margin-left:0px;
 					  <br>
 					  
 					</div>
-				</div><div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 24px;">
+				</div><div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 43px;">
 					<div class="pic4" style="margin-top: -27px; height: 61px;">
 							<img src="<%=basePath%>images/lvli.png" style="cursor: pointer;" onclick="window.open('http://hrms-sso.crc.com.cn/web/#/employee/myEmployee?menuCode=console_myEmployee')" height="55" width="55">
 						</div>
@@ -1071,25 +1071,13 @@ margin-left:0px;
 					  
 					</div>
 				</div>
-				<div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 25px;">
+				<div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 43px;">
 					<div class="pic4" style="margin-top: -27px; height: 61px;">
 							<img src="<%=basePath%>images/xiugai.png" style="cursor: pointer;" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS')" height="55" width="55">
 						</div>
 					<div class="job">
 					  <span style="font-size: 15px; font-weight: bold; margin-top: 6px;">
 					  <a href="http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS" target="_blank">离职申请</a></span><br>
-					 
-					  <br>
-					  
-					</div>
-				</div>
-				<div class="latest3" style="background-color: white; float: left; width: 175px; margin-left: 85px; text-align: center; margin-top: 8px;">
-					<div class="pic4" style="margin-top: -27px; height: 61px;">
-							<img src="<%=basePath%>images/xyqmbzd.png" style="cursor: pointer;" onclick="window.open('http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS')" height="55" width="55">
-						</div>
-					<div class="job" style="height:20px;">
-					  <span style="font-size: 15px; font-weight: bold; margin-top: 6px;">
-					  <a href="http://hrms-sso.crc.com.cn/psp/HRPRD/EMPLOYEE/HRMS/c/CRC_EOAW_MENU.CRC_WKC_MAIN_CM.GBL?Page=CRC_WKC_MAIN_PG&Action=A&CRC_DATA_TYPE=DT001&CRC_FLOWID=CR005527&SETID=CR005&CRC_WKC_EOAW_ID=NEW&CRC_FLAG=1&languageCd=ZHS" target="_blank">试用期目标制定</a></span><br>
 					 
 					  <br>
 					  
