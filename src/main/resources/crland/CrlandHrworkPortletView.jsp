@@ -826,22 +826,24 @@ background: white;
             <div class="bd" style="height:320px">
               <div id="URLID" class="tempWrap" style="overflow:hidden; position:relative; width:714px">
 			  <ul style="width: 720px; position: relative; overflow: hidden; padding: 0px;" class="picList" id="">
-			  
+			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/sheb9.png" class="CRC004" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC004"  title="">录用入职</a></div></li>
 			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/zhuanz1.png" class="CRC005" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC005"  title="">试用转正</a></div></li>
 			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/diaod2.png" class="CRC006" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC006"  title="">调动</a></div></li>
 			   <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/jied3.png" class="CRC007" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC007"  title="">借调</a></div></li>
 			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/lung4.png" class="CRC008" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC008"  title="">轮岗</a></div></li>
 			   <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/jings5.png" class="CRC009" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC009" title="">晋升</a></div></li>
 			  <%-- <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/xingz6.png" width="70" height="70"></div><div class="title_"><a id="CRC010" title="">职级调整</a></div></li> --%>
-			 <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/zhaop12.png" class="CRC001" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a  class="CRC001" title="">招聘</a></div></li>
+			 
 			  </ul>
 			  <ul style="width: 720px; position: relative; overflow: hidden; padding: 0px;margin-top: 6px;" class="picList" id="">
-			  
+			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/zhaop12.png" class="CRC001" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a  class="CRC001" title="">招聘</a></div></li>
 			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/diaoy7.png" class="CRC011" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC011" title="">调薪</a></div></li>
 			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/jianz8.png" class="CRC012" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC012" title="">集中算薪</a></div></li>
-			   <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/sheb9.png" class="CRC013" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC013" title="">社保公积金</a></div></li>
+			  <%--  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/sheb9.png" class="CRC013" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC013" title="">社保公积金</a></div></li> --%>
 			  <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/het10.png" class="CRC014" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC014" title="">合同续签</a></div></li>
 			   <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/liz11.png" class="CRC015" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC015" title="">离职</a></div></li>
+			   <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/sjwh.png" class="CRC019" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC019" title="">数据维护</a></div></li>
+			   <li style="float: left;"><div class="pic"><img src="<%=basePath%>images/xtqq.png" class="CRC020" style="cursor: pointer;" width="70" height="70"></div><div class="title_"><a class="CRC020" title="">系统请求</a></div></li>
 			  
 			  </ul>
 			   <ul style="width: 720px; position: relative; overflow: hidden; padding: 0px;margin-top: 6px;" class="picList" id="">
@@ -880,11 +882,14 @@ background: white;
 	   <td><select id="ytselect" style="height:26px">
 	      <option value ="QB">全部</option>
 		  <option value ="L">开发</option>
-		  <option value="C">商业</option>
-		  <option value="P">物业</option>
-		  <option value="E">建筑</option>
+		  <option value ="C">商业</option>
+		  <option value ="B">建设</option>
+		  <option value ="P">物业</option>
+		  <option value ="CS">商服</option>
+		  <option value ="OC">共享服务</option>
+		  <!-- <option value="E">建筑</option>
 		  <option value="U">优高雅</option>
-		  <option value="F">励致家私</option>
+		  <option value="F">励致家私</option> -->
 		  <option value="I">电商</option>
 	   </select></td>
        <td><a href="#"><%-- <img src="<%=basePath%>css/search.png" style="margin-bottom: -6px; margin-left: 12px;" width='20' height='20'> --%></a></td>
