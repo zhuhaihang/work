@@ -30,7 +30,9 @@ public class SysJobServiceImpl implements ISysJobService
     private SysJobMapper jobMapper;
 
     /**
-     * 项目启动时，初始化定时器
+     * 项目启动时，初始化定时器，
+     * PostContruct是spring框架的注解，在方法上加该注解会在项目启动的时候执行该方法，
+     * 也可以理解为在spring容器初始化的时候执行该方法。
      */
     @PostConstruct
     public void init()

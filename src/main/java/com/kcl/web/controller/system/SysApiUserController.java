@@ -28,9 +28,8 @@ import java.util.List;
  * @author kcl
  */
 @Controller
-@RequestMapping("/system/user")
-//@RequestMapping("api/system/user")
-public class SysUserController extends BaseController
+@RequestMapping("api/system/user")
+public class SysApiUserController extends BaseController
 {
     private String prefix = "system/user";
 
@@ -53,7 +52,7 @@ public class SysUserController extends BaseController
         return prefix + "/user";
     }
 
-    @RequiresPermissions("system:user:list")
+//    @RequiresPermissions("system:user:list")
     @PostMapping("/list")
     @ResponseBody
     public TableDataInfo list(SysUser user)
@@ -64,7 +63,7 @@ public class SysUserController extends BaseController
     }
 
     @Log(title = "用户管理", businessType = BusinessType.EXPORT)
-    @RequiresPermissions("system:user:export")
+//    @RequiresPermissions("system:user:export")
     @PostMapping("/export")
     @ResponseBody
     public AjaxResult export(SysUser user)
@@ -88,7 +87,7 @@ public class SysUserController extends BaseController
     /**
      * 新增保存用户
      */
-    @RequiresPermissions("system:user:add")
+//    @RequiresPermissions("system:user:add")
     @Log(title = "用户管理", businessType = BusinessType.INSERT)
     @PostMapping("/add")
     @Transactional(rollbackFor = Exception.class)
@@ -120,7 +119,7 @@ public class SysUserController extends BaseController
     /**
      * 修改保存用户
      */
-    @RequiresPermissions("system:user:edit")
+//    @RequiresPermissions("system:user:edit")
     @Log(title = "用户管理", businessType = BusinessType.UPDATE)
     @PostMapping("/edit")
     @Transactional(rollbackFor = Exception.class)
@@ -135,7 +134,7 @@ public class SysUserController extends BaseController
         return toAjax(userService.updateUser(user));
     }
 
-    @RequiresPermissions("system:user:resetPwd")
+//    @RequiresPermissions("system:user:resetPwd")
     @Log(title = "重置密码", businessType = BusinessType.UPDATE)
     @GetMapping("/resetPwd/{userId}")
     public String resetPwd(@PathVariable("userId") Long userId, ModelMap mmap)
@@ -144,7 +143,7 @@ public class SysUserController extends BaseController
         return prefix + "/resetPwd";
     }
 
-    @RequiresPermissions("system:user:resetPwd")
+//    @RequiresPermissions("system:user:resetPwd")
     @Log(title = "重置密码", businessType = BusinessType.UPDATE)
     @PostMapping("/resetPwd")
     @ResponseBody
@@ -155,7 +154,7 @@ public class SysUserController extends BaseController
         return toAjax(userService.resetUserPwd(user));
     }
 
-    @RequiresPermissions("system:user:remove")
+//    @RequiresPermissions("system:user:remove")
     @Log(title = "用户管理", businessType = BusinessType.DELETE)
     @PostMapping("/remove")
     @ResponseBody

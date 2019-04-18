@@ -44,6 +44,7 @@ public class DataSourceAspect
 
         if (StringUtils.isNotNull(dataSource))
         {
+            //根据注解读取注解属性来切换数据库源
             DynamicDataSourceContextHolder.setDateSoureType(dataSource.value().name());
         }
 

@@ -10,11 +10,14 @@ import java.lang.annotation.*;
  *
  * @author kcl
  */
-@Target({ ElementType.PARAMETER, ElementType.METHOD })
-@Retention(RetentionPolicy.RUNTIME)
-@Documented
+@Target({ ElementType.PARAMETER, ElementType.METHOD })//方法和方法参数
+@Retention(RetentionPolicy.RUNTIME)// 注解会在class字节码文件中存在，在运行时可以通过反射获取到
+@Documented///说明该注解将被包含在javadoc中
 public @interface Log
 {
+    //如果注解有多个属性，
+    // 而且前提是这多个属性都有默认值，那么你不写注解名赋值，
+    // 会赋值给名字为“value”这属性。
     /**
      * 模块
      */

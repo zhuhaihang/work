@@ -32,7 +32,8 @@ public class SwaggerConfig
                 .apiInfo(apiInfo())
                 .select()
                 // 指定当前包路径
-                .apis(RequestHandlerSelectors.basePackage("com.kcl.module.controller"))
+                //.apis(RequestHandlerSelectors.basePackage("com.kcl.module.controller"))
+                .apis(RequestHandlerSelectors.any())
                 // 扫描所有 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
                 .build();

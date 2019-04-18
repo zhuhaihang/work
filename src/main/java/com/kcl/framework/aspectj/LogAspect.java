@@ -29,13 +29,12 @@ import java.util.Map;
  *
  * @author kcl
  */
-@Aspect
+@Aspect//定义成切面类
 @Component
 public class LogAspect
 {
     private static final Logger log = LoggerFactory.getLogger(LogAspect.class);
-
-    // 配置织入点
+    //切面类有切入点，切入点是自定义注解的地方
     @Pointcut("@annotation(com.kcl.common.annotation.Log)")
     public void logPointCut()
     {
